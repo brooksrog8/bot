@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brooks/Documents/brooks_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brooks/Documents/brooks_bot/install/brooks_bot
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.770s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.780s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.780s] -- Configured cppcheck include dirs: 
+[0.780s] -- Configured cppcheck exclude dirs and/or files: 
+[0.791s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.791s] -- Configured cpplint exclude dirs and/or files: 
+[0.793s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.796s] -- Added test 'lint_cmake' to check CMake code style
+[0.798s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.809s] -- Added test 'uncrustify' to check C / C++ code style
+[0.809s] -- Configured uncrustify additional arguments: 
+[0.810s] -- Added test 'xmllint' to check XML markup files
+[0.812s] -- Configuring done
+[0.815s] -- Generating done
+[0.816s] -- Build files have been written to: /home/brooks/Documents/brooks_bot/build/brooks_bot
+[0.820s] Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brooks/Documents/brooks_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brooks/Documents/brooks_bot/install/brooks_bot
+[0.821s] Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brooks/Documents/brooks_bot/build/brooks_bot -- -j12 -l12
+[0.850s] Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brooks/Documents/brooks_bot/build/brooks_bot -- -j12 -l12
+[0.857s] Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brooks/Documents/brooks_bot/build/brooks_bot
+[0.861s] -- Install configuration: ""
+[0.862s] -- Execute custom install script
+[0.862s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/config/empty.yaml
+[0.868s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/description/robot.urdf.xacro
+[0.875s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/launch/rsp.launch.py
+[0.881s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/worlds/empty.world
+[0.886s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/ament_index/resource_index/package_run_dependencies/brooks_bot
+[0.892s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/ament_index/resource_index/parent_prefix_path/brooks_bot
+[0.898s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/environment/ament_prefix_path.sh
+[0.904s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/environment/ament_prefix_path.dsv
+[0.910s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/environment/path.sh
+[0.917s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/environment/path.dsv
+[0.924s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/local_setup.bash
+[0.930s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/local_setup.sh
+[0.937s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/local_setup.zsh
+[0.943s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/local_setup.dsv
+[0.949s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/package.dsv
+[0.955s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/ament_index/resource_index/packages/brooks_bot
+[0.961s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/cmake/brooks_botConfig.cmake
+[0.967s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/cmake/brooks_botConfig-version.cmake
+[0.973s] -- Symlinking: /home/brooks/Documents/brooks_bot/install/brooks_bot/share/brooks_bot/package.xml
+[0.981s] Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brooks/Documents/brooks_bot/build/brooks_bot

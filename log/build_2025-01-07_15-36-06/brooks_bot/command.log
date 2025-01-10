@@ -1,0 +1,6 @@
+Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brooks/Documents/brooks_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brooks/Documents/brooks_bot/install/brooks_bot
+Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brooks/Documents/brooks_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brooks/Documents/brooks_bot/install/brooks_bot
+Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brooks/Documents/brooks_bot/build/brooks_bot -- -j12 -l12
+Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brooks/Documents/brooks_bot/build/brooks_bot -- -j12 -l12
+Invoking command in '/home/brooks/Documents/brooks_bot/build/brooks_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brooks/Documents/brooks_bot/build/brooks_bot
+Invoked command in '/home/brooks/Documents/brooks_bot/build/brooks_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brooks/Documents/brooks_bot/build/brooks_bot
